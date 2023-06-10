@@ -9,7 +9,8 @@ Products
     <div class="container">
 
         <div class="container">
-
+             <br>
+            <a class="btn btn-primary" href="{{route('admin.product.create')}}"> Create New Product </a>
             <!--  BEGIN BREADCRUMBS  -->
             <div class="secondary-nav">
                 <div class="breadcrumbs-container" data-page-heading="Analytics">

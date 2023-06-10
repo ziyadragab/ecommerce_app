@@ -9,9 +9,12 @@ categories
     <div class="container">
 
         <div class="container">
-
             <!--  BEGIN BREADCRUMBS  -->
+            <br>
+            <a class="mt-4 mb-4 btn btn-primary" href="{{route('admin.category.create')}}"> Add New Category </a>
+
             <div class="secondary-nav">
+
                 <div class="breadcrumbs-container" data-page-heading="Analytics">
                     <header class="header navbar navbar-expand-sm">
                         <a href="javascript:void(0);" class="btn-toggle sidebarCollapse" data-placement="bottom">

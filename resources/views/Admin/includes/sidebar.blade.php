@@ -50,7 +50,7 @@
                         <a href="{{ route('index') }}"> User Interface </a>
                     </li>
                     <li>
-                        <a href="./index2.html"> Sales </a>
+                        <a href="{{route('admin.index')}}"> Admin Home </a>
                     </li>
                 </ul>
             </li>
@@ -95,85 +95,18 @@
                 </a>
                 <ul class="dropdown-menu submenu list-unstyled" id="apps" data-bs-parent="#accordionExample">
                     <li>
-                        <a href=""> Category </a>
+                        <a href="{{route('admin.category.index')}}"> Category </a>
                     </li>
                     <li>
-                        <a href=""> Add New Category </a>
-                    </li>
-                    <li>
-                        <a href=""> Add New DEpartment </a>
+                        <a href="{{route('admin.category.create')}}"> Add New Category </a>
                     </li>
 
 
-                    <li>
-                        <a href="./app-notes.html"> Notes </a>
-                    </li>
-                    <li>
-                        <a href="./app-scrumboard.html"> Scrumboard </a>
-                    </li>
-                    <li>
-                        <a href="./app-contacts.html"> Contacts </a>
-                    </li>
+
+
+
                     <li class="sub-submenu dropend">
-                        <a href="#invoice" data-bs-toggle="dropdown" aria-expanded="false"
-                            class="dropdown-toggle collapsed">Invoice
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-chevron-right">
-                                <polyline points="9 18 15 12 9 6"></polyline>
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu list-unstyled sub-submenu" id="invoice">
-                            <li>
-                                <a href="./app-invoice-list.html"> List </a>
-                            </li>
-                            <li>
-                                <a href="./app-invoice-preview.html"> Preview </a>
-                            </li>
-                            <li>
-                                <a href="./app-invoice-add.html"> Add </a>
-                            </li>
-                            <li>
-                                <a href="./app-invoice-edit.html"> Edit </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sub-submenu dropend">
-                        <a href="#ecommerce" data-bs-toggle="dropdown" aria-expanded="false"
-                            class="dropdown-toggle collapsed">Ecommerce
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-chevron-right">
-                                <polyline points="9 18 15 12 9 6"></polyline>
-                            </svg>
-                        </a>
-                        <ul class="dropdown-menu list-unstyled sub-submenu" id="ecommerce" data-bs-parent="#apps">
-                            <li>
-                                <a href="./app-ecommerce-product-shop.html"> Shop </a>
-                            </li>
-                            <li>
-                                <a href="./app-ecommerce-product.html"> Product </a>
-                            </li>
-                            <li>
-                                <a href="./app-ecommerce-product-list.html"> List </a>
-                            </li>
-                            <li>
-                                <a href="./app-ecommerce-product-add.html"> Create </a>
-                            </li>
-                            <li>
-                                <a href="./app-ecommerce-product-edit.html"> Edit </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sub-submenu dropend">
-                        <a href="#blog" data-bs-toggle="dropdown" aria-expanded="false"
-                            class="dropdown-toggle collapsed">Blog
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-chevron-right">
-                                <polyline points="9 18 15 12 9 6"></polyline>
-                            </svg>
-                        </a>
+
                         <ul class="dropdown-menu list-unstyled sub-submenu" id="blog" data-bs-parent="#apps">
                             <li>
                                 <a href="./app-blog-grid.html"> Grid </a>
@@ -218,7 +151,7 @@
                             <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
                             <line x1="12" y1="22.08" x2="12" y2="12"></line>
                         </svg>
-                        <span>Gallery</span>
+                        <span>Products</span>
                     </div>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -230,10 +163,10 @@
                 </a>
                 <ul class="dropdown-menu submenu list-unstyled" id="components" data-bs-parent="#accordionExample">
                     <li>
-                        <a href="#"> Gallery List </a>
+                        <a href="{{route('admin.product.index')}}"> Products List </a>
                     </li>
                     <li>
-                        <a href="#"> Create New Gallery </a>
+                        <a href="{{route('admin.product.create')}}"> Create New Product </a>
                     </li>
                 </ul>
             </li>
@@ -258,10 +191,10 @@
                 </a>
                 <ul class="dropdown-menu submenu list-unstyled" id="elements" data-bs-parent="#accordionExample">
                     <li>
-                        <a href=""> All Ads </a>
+                        <a href="{{route('admin.ad.index')}}"> All Ads </a>
                     </li>
                     <li>
-                        <a href=""> Create new ad </a>
+                        <a href="{{route('admin.ad.create')}}"> Create new ad </a>
                     </li>
 
                 </ul>

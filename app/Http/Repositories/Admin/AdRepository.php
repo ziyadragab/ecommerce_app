@@ -2,6 +2,7 @@
 
 namespace App\Http\Repositories\Admin;
 
+
 use App\Http\interfaces\Admin\AdInterface;
 use App\Http\Traits\ImageTrait;
 use App\Http\Traits\Redis\AdRedis;

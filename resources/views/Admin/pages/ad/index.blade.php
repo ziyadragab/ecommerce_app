@@ -6,10 +6,12 @@
 
         <div class="container">
 
+            <br>
             <!--  BEGIN BREADCRUMBS  -->
+            <a href="{{ route('admin.ad.create') }}" class="btn btn-primary">Add New Ad</a>
+
             <div class="secondary-nav">
                 <div class="breadcrumbs-container" data-page-heading="Analytics">
-                    <a href="{{ route('admin.ad.create') }}" class="btn btn-primary">ADD New Ad</a>
 
                     <header class="header navbar navbar-expand-sm">
                         <a href="javascript:void(0);" class="btn-toggle sidebarCollapse" data-placement="bottom">

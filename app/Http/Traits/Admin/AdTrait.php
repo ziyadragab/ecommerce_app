@@ -1,12 +1,12 @@
 <?php
 namespace App\Http\Traits\Admin;
 
-use App\Models\AD;
+use App\Models\Ad;
 
 trait AdTrait{
 
     private function getAllAd(){
-        return AD::get();
+        return Ad::get();
     }
 
     private $adModel;
